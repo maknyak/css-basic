@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #222;
+}
+
+.btn {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 12px 20px;
+}
+
+.btn:hover {
+  background-color: #eee;
+}
+
+.btn.primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  color: #fff;
+}
+
+.primary:hover {
+  background-color: #fff;
+  color: #0d6efd;
+}
+
+.btn.danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #fff;
+}
+
+.danger:hover {
+  background-color: #fff;
+  color: #dc3545;
+}
+
+.btn.success {
+  background-color: #198754;
+  border-color: #198754;
+  color: #fff;
+}
+
+.success:hover {
+  background-color: #fff;
+  color: #198754;
+}
+
+.btn.warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #222;
+}
+
+.warning:hover {
+  background-color: #fff;
+  color: #ffc107;
+}
+
+.btn.info {
+  background-color: #0dcaf0;
+  border-color: #0dcaf0;
+  color: #fff;
+}
+
+.info:hover {
+  background-color: #fff;
+  color: #0dcaf0;
+}
